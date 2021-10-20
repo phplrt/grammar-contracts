@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Phplrt\Contracts\Grammar;
 
 use Phplrt\Contracts\Lexer\TokenInterface;
-use Phplrt\Contracts\Lexer\BufferInterface;
+use Phplrt\Contracts\Buffer\BufferInterface;
 
 /**
  * Interface denoting a leaf (that is a terminal) rule.

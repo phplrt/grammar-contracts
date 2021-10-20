@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Phplrt\Contracts\Grammar;
 
-use Phplrt\Contracts\Lexer\BufferInterface;
+use Phplrt\Contracts\Buffer\BufferInterface;
 
 /**
  * Interface denoting a production (that is a non-terminal) rule.
